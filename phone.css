@@ -1,0 +1,86 @@
+/* Registration form Section */
+#Registration{
+    color: navajowhite;
+    background: url('https://images.pexels.com/photos/3813341/pexels-photo-3813341.jpeg') no-repeat center center/cover;
+    background-size: cover;
+}
+
+#Registration-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    
+}
+#Registration-box input, 
+#Registration-box textarea{
+    width: 40%;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: navajowhite;
+} 
+
+#Registration-box form{
+    width: 50%;
+    
+}
+
+#Registration-box label{
+   font-size: 20px;
+   font-family: 'Tangrin', serif;
+
+}
+#Registration h1{
+   padding-left: 320px;
+   margin-bottom: 25px;
+   font-size: 50px;
+}
+#course{
+    background-color: navajowhite;
+    font-size: 1rem;
+}
+
+
+
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+   
+}
+
+/* Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: navajowhite;
+    color: rgb(65, 44, 44);
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color: rgb(255, 195, 105);
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(65, 44, 44);
+}
+
+.center{
+    text-align: center;
+}
